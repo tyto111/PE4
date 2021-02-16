@@ -1,0 +1,46 @@
+jovyan@jupyter-tyto1511:~/3010/PE4$ ./run
+   
+   
+   
+Please enter row: 0
+Please enter col: 0
+X   
+   
+   
+Please enter row: 0
+Please enter col: 1
+X O  
+   
+   
+Please enter row: 0
+Please enter col: 2
+X O X 
+   
+   
+Please enter row: 1
+Please enter col: 0
+X O X 
+O   
+   
+Please enter row: 1
+Please enter col: 1
+X O X 
+O X  
+   
+Please enter row: 1
+Please enter col: 2
+X O X 
+O X O 
+   
+Please enter row: 2
+Please enter col: 0
+X O X 
+O X O 
+X   
+Please enter row: 2
+Please enter col: 1
+X O X 
+O X O 
+X O  
+Please enter row: 2
+Please enter col: 2
