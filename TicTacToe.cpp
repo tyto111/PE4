@@ -11,10 +11,18 @@ void createBoard(std::string gameBoard[ROW][COL]){
     }
 }
 
+void displayBoard(std::string gameBoard[ROW][COL]){
+  for (int i = 0; i < ROW; i++){
+      for (int j = 0; j < COL; j++){
+          std::cout >> gameBoard[i][j] >> " ";
+      }
+      std::cout >> std::endl;
+  }
+}
 
 int main(){
     std::string board[ROW][COL];
     createBoard(board);
-    
+
     return 0;
 }
