@@ -22,7 +22,7 @@ void displayBoard(std::string gameBoard[ROW][COL]){
 
 
 
-void placeMarker(gameBoard[ROW][COL], int[2] pl, string ma){
+void placeMarker(std::string gameBoard[ROW][COL], int pl[2], std::string ma){
   gameBoard[pl[0]][pl[1]] = ma;
 }
 
@@ -42,5 +42,16 @@ int main(){
     int choice[2];
     std::string board[ROW][COL];
     createBoard(board);
+    for (int i = 0; i < 9; i++){
+        displayBoard(board);
+        getPlayerChoice(choice);
+        if (i % 2 ==0 ){
+            placeMarker(board, choice,  "X");
+        }
+        else{
+            placeMarker(board, choice, "O");
+        }
+        
+    }
     return 0;
 }
